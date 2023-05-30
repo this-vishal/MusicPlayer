@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(167, 231, 231);
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+}
+
+nav ul{
+    position: sticky;
+    color: white;
+    display: flex;
+    height: 9vh;
+    background-color:  rgb(32, 137, 41);
+    list-style-type: none ;
+    align-items: center;
+}
+.brand img{
+
+    height: 8vh;
+    width: 50px;
+    padding: 0 8px;
+    
+    
+}
+nav ul li{
+   padding: 0px  12px;
+}
+.brand{
+
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+.container{
+    color: white;
+    min-height: 75vh;
+    background-color: rgb(40, 49, 66);
+    margin: 70px 80px;
+   
+    border-radius: 20px;
+    background-image: url("/images/bg.jpg");
+    height: 130vh;
+}
+
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 90px;
+    background-color: rgb(32, 137, 41);
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#myProgressBar{
+    margin-top: 10px;
+    width: 75%;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+   
+}
+.icons i{
+    padding-left: 13px;
+}
+.songList{
+
+    margin: 30px;
+}
+
+.songItem{
+    font-size: larger;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    background-color:  rgb(255, 255, 255);
+    width: 60%;
+    margin-left: 10px;
+    margin: 22px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 35px;
+
+}
+.songItem img{
+
+    width: 40px;
+    margin: 23px 0;
+        border-radius: 34px;
+        cursor: pointer;
+}
+.songList h1{
+    margin-top: 10px;
+}
+.songlistplay i{
+        cursor: pointer;
+        
+}
+.songTimer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.songTimer span{
+    margin-left: 20px;
+}
+.songContainer{
+    margin-top: 80px;
+}
+.songInfo {
+    padding-left: 10px;
+    margin-top: 25px;
+    position: absolute;
+    left: 11vw;
+    font-size: larger;
+}
+
+.songInfo img{
+ 
+    width: 60px;
+    height: 30px;
+    opacity: 0;
+    transition: opacity 0.4 ease-in;
+  
+}
+.songName{
+    width: 45%;
+}
